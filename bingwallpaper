@@ -112,7 +112,7 @@ do
   elif gsettings set org.gnome.desktop.background picture-uri "file://$path$imgName"; then
     #Logging
     # Set the view to zoom,
-    gsettings set org.gnome.desktop.background picture-options "wallpaper"
+    gsettings set org.gnome.desktop.background picture-options "zoom"
   else
     echo "$XDG_CURRENT_DESKTOP not supported."
     break
